@@ -1,0 +1,1 @@
+export { IconVote } from "./IconVote";
