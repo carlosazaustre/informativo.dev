@@ -1,5 +1,5 @@
 import { ApolloServer, gql } from "apollo-server-micro";
-import { getAllItems, getItemBy } from "../../lib/db";
+import { getAllItems, getItemBy } from "../../lib/database";
 
 const typeDefs = gql`
   type Item {
